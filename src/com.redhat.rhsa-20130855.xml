@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5" xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5" xmlns:unix-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix" xmlns:red-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#unix unix-definitions-schema.xsd http://oval.mitre.org/XMLSchema/oval-definitions-5#linux linux-definitions-schema.xsd">
+  <generator>
+    <oval:product_name>Red Hat Errata System</oval:product_name>
+    <oval:schema_version>5.3</oval:schema_version>
+    <oval:timestamp>2013-05-22T14:42:16</oval:timestamp>
+  </generator>
+
+  <definitions>
+    <definition id="oval:com.redhat.rhsa:def:20130855" version="501" class="patch">
+      <metadata>
+        <title>RHSA-2013:0855: java-1.5.0-ibm security update (Important)</title>
+    <affected family="unix">
+      <platform>Supplementary for Red Hat Enterprise Linux 6</platform>
+    </affected>
+    <reference source="RHSA" ref_id="RHSA-2013:0855-00" ref_url="https://rhn.redhat.com/errata/RHSA-2013-0855.html"/>
+      <reference source="CVE" ref_id="CVE-2013-0169" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-0169.html"/>
+      <reference source="CVE" ref_id="CVE-2013-0401" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-0401.html"/>
+      <reference source="CVE" ref_id="CVE-2013-1491" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-1491.html"/>
+      <reference source="CVE" ref_id="CVE-2013-1537" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-1537.html"/>
+      <reference source="CVE" ref_id="CVE-2013-1557" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-1557.html"/>
+      <reference source="CVE" ref_id="CVE-2013-1569" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-1569.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2383" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2383.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2384" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2384.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2394" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2394.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2417" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2417.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2419" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2419.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2420" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2420.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2424" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2424.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2429" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2429.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2430" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2430.html"/>
+      <reference source="CVE" ref_id="CVE-2013-2432" ref_url="https://www.redhat.com/security/data/cve/CVE-2013-2432.html"/>
+    <description>IBM J2SE version 5.0 includes the IBM Java Runtime Environment and the IBM
+Java Software Development Kit.
+
+This update fixes several vulnerabilities in the IBM Java Runtime
+Environment and the IBM Java Software Development Kit. Detailed
+vulnerability descriptions are linked from the IBM Security alerts page,
+listed in the References section. (CVE-2013-0169, CVE-2013-0401,
+CVE-2013-1491, CVE-2013-1537, CVE-2013-1557, CVE-2013-1569, CVE-2013-2383,
+CVE-2013-2384, CVE-2013-2394, CVE-2013-2417, CVE-2013-2419, CVE-2013-2420,
+CVE-2013-2424, CVE-2013-2429, CVE-2013-2430, CVE-2013-2432)
+
+All users of java-1.5.0-ibm are advised to upgrade to these updated
+packages, containing the IBM J2SE 5.0 SR16-FP2 release. All running
+instances of IBM Java must be restarted for this update to take effect.</description>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~   advisory details   ~~~~~~~~~~~~~~~~~~~ -->
+
+<advisory from="secalert@redhat.com">
+        <severity>Important</severity>
+        <rights>Copyright 2013 Red Hat, Inc.</rights>
+        <issued date="2013-05-22"/>
+        <updated date="2013-05-22"/>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-0169.html">CVE-2013-0169</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-0401.html">CVE-2013-0401</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-1491.html">CVE-2013-1491</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-1537.html">CVE-2013-1537</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-1557.html">CVE-2013-1557</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-1569.html">CVE-2013-1569</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2383.html">CVE-2013-2383</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2384.html">CVE-2013-2384</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2394.html">CVE-2013-2394</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2417.html">CVE-2013-2417</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2419.html">CVE-2013-2419</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2420.html">CVE-2013-2420</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2424.html">CVE-2013-2424</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2429.html">CVE-2013-2429</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2430.html">CVE-2013-2430</cve>
+        <cve href="https://www.redhat.com/security/data/cve/CVE-2013-2432.html">CVE-2013-2432</cve>
+        <bugzilla href="http://bugzilla.redhat.com/907589" id="907589">CVE-2013-0169 SSL/TLS: CBC padding timing attack (lucky-13)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/920245" id="920245">CVE-2013-0401 OpenJDK: sun.awt.datatransfer.ClassLoaderObjectInputStream class may incorrectly invoke the system class loader (CanSecWest 2013, AWT, 8009305)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/920248" id="920248">CVE-2013-1491 Oracle JDK: unspecified sanbox bypass (CanSecWest 2013, 2D)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952387" id="952387">CVE-2013-1537 OpenJDK: remote code loading enabled by default (RMI, 8001040)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952509" id="952509">CVE-2013-2424 OpenJDK: MBeanInstantiator insufficient class access checks (JMX, 8006435)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952521" id="952521">CVE-2013-2429 OpenJDK: JPEGImageWriter state corruption (ImageIO, 8007918)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952524" id="952524">CVE-2013-2430 OpenJDK: JPEGImageReader state corruption (ImageIO, 8007667)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952638" id="952638">CVE-2013-2420 OpenJDK: image processing vulnerability (2D, 8007617)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952648" id="952648">CVE-2013-1557 OpenJDK: LogStream.setDefaultStream() missing security restrictions (RMI, 8001329)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952656" id="952656">CVE-2013-2419 ICU: Layout Engine font processing errors (JDK 2D, 8001031)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952657" id="952657">CVE-2013-2417 OpenJDK: Network InetAddress serialization information disclosure (Networking, 8000724)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952708" id="952708">CVE-2013-2383 ICU: Layout Engine font layout and glyph table errors (JDK 2D, 8004986)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952709" id="952709">CVE-2013-2384 ICU: Layout Engine font layout and glyph table errors (JDK 2D, 8004987)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/952711" id="952711">CVE-2013-1569 ICU: Layout Engine font layout and glyph table errors (JDK 2D, 8004994)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/953265" id="953265">CVE-2013-2394 Oracle JDK: unspecified vulnerability fixed in 7u21 and 6u45 (2D)</bugzilla>
+        <bugzilla href="http://bugzilla.redhat.com/953269" id="953269">CVE-2013-2432 Oracle JDK: unspecified vulnerability fixed in 7u21 and 6u45 (2D)</bugzilla>
+    <affected_cpe_list>
+        <cpe>cpe:/a:redhat:rhel_extras</cpe>
+    </affected_cpe_list>
+</advisory>
+      </metadata>
+      <criteria operator="AND">
+ 
+ <criteria operator="OR">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20130855001" comment="Red Hat Enterprise Linux 6 Client is installed"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855002" comment="Red Hat Enterprise Linux 6 Server is installed"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855003" comment="Red Hat Enterprise Linux 6 Workstation is installed"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855004" comment="Red Hat Enterprise Linux 6 ComputeNode is installed"/>
+ 
+</criteria>
+<criteria operator="OR">
+ 
+ <criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20130855013" comment="java-1.5.0-ibm-plugin is earlier than 1:1.5.0.16.2-1jpp.1.el6_4"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855014" comment="java-1.5.0-ibm-plugin is signed with Red Hat redhatrelease2 key"/>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20130855009" comment="java-1.5.0-ibm-devel is earlier than 1:1.5.0.16.2-1jpp.1.el6_4"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855010" comment="java-1.5.0-ibm-devel is signed with Red Hat redhatrelease2 key"/>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20130855007" comment="java-1.5.0-ibm-src is earlier than 1:1.5.0.16.2-1jpp.1.el6_4"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855008" comment="java-1.5.0-ibm-src is signed with Red Hat redhatrelease2 key"/>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20130855005" comment="java-1.5.0-ibm is earlier than 1:1.5.0.16.2-1jpp.1.el6_4"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855006" comment="java-1.5.0-ibm is signed with Red Hat redhatrelease2 key"/>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20130855015" comment="java-1.5.0-ibm-jdbc is earlier than 1:1.5.0.16.2-1jpp.1.el6_4"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855016" comment="java-1.5.0-ibm-jdbc is signed with Red Hat redhatrelease2 key"/>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20130855017" comment="java-1.5.0-ibm-javacomm is earlier than 1:1.5.0.16.2-1jpp.1.el6_4"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855018" comment="java-1.5.0-ibm-javacomm is signed with Red Hat redhatrelease2 key"/>
+ 
+</criteria>
+<criteria operator="AND">
+ <criterion test_ref="oval:com.redhat.rhsa:tst:20130855011" comment="java-1.5.0-ibm-demo is earlier than 1:1.5.0.16.2-1jpp.1.el6_4"/><criterion test_ref="oval:com.redhat.rhsa:tst:20130855012" comment="java-1.5.0-ibm-demo is signed with Red Hat redhatrelease2 key"/>
+ 
+</criteria>
+
+</criteria>
+
+</criteria>
+
+    </definition>
+  </definitions>
+  <tests>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~   rpminfo tests   ~~~~~~~~~~~~~~~~~~~~~ -->
+    <rpminfo_test id="oval:com.redhat.rhsa:tst:20130855001" version="501" comment="Red Hat Enterprise Linux 6 Client is installed" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855001"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855003"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855002" version="501" comment="Red Hat Enterprise Linux 6 Server is installed" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855002"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855003"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855003" version="501" comment="Red Hat Enterprise Linux 6 Workstation is installed" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855003"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855003"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855004" version="501" comment="Red Hat Enterprise Linux 6 ComputeNode is installed" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855004"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855003"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855005" version="501" comment="java-1.5.0-ibm is earlier than 1:1.5.0.16.2-1jpp.1.el6_4" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855005"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855004"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855006" version="501" comment="java-1.5.0-ibm is signed with Red Hat redhatrelease2 key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855005"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855002"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855007" version="501" comment="java-1.5.0-ibm-src is earlier than 1:1.5.0.16.2-1jpp.1.el6_4" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855006"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855004"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855008" version="501" comment="java-1.5.0-ibm-src is signed with Red Hat redhatrelease2 key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855006"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855002"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855009" version="501" comment="java-1.5.0-ibm-devel is earlier than 1:1.5.0.16.2-1jpp.1.el6_4" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855007"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855004"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855010" version="501" comment="java-1.5.0-ibm-devel is signed with Red Hat redhatrelease2 key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855007"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855002"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855011" version="501" comment="java-1.5.0-ibm-demo is earlier than 1:1.5.0.16.2-1jpp.1.el6_4" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855008"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855004"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855012" version="501" comment="java-1.5.0-ibm-demo is signed with Red Hat redhatrelease2 key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855008"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855002"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855013" version="501" comment="java-1.5.0-ibm-plugin is earlier than 1:1.5.0.16.2-1jpp.1.el6_4" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855009"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855004"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855014" version="501" comment="java-1.5.0-ibm-plugin is signed with Red Hat redhatrelease2 key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855009"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855002"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855015" version="501" comment="java-1.5.0-ibm-jdbc is earlier than 1:1.5.0.16.2-1jpp.1.el6_4" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855010"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855004"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855016" version="501" comment="java-1.5.0-ibm-jdbc is signed with Red Hat redhatrelease2 key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855010"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855002"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855017" version="501" comment="java-1.5.0-ibm-javacomm is earlier than 1:1.5.0.16.2-1jpp.1.el6_4" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855011"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855004"/>
+</rpminfo_test>
+<rpminfo_test id="oval:com.redhat.rhsa:tst:20130855018" version="501" comment="java-1.5.0-ibm-javacomm is signed with Red Hat redhatrelease2 key" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <object object_ref="oval:com.redhat.rhsa:obj:20130855011"/>
+  <state state_ref="oval:com.redhat.rhsa:ste:20130855002"/>
+</rpminfo_test>
+
+  </tests>
+
+  <objects>
+    <!-- ~~~~~~~~~~~~~~~~~~~~   rpminfo objects   ~~~~~~~~~~~~~~~~~~~~ -->
+    <rpminfo_object id="oval:com.redhat.rhsa:obj:20130855009" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>java-1.5.0-ibm-plugin</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855007" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>java-1.5.0-ibm-devel</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855004" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>redhat-release-computenode</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855001" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>redhat-release-server</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855006" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>java-1.5.0-ibm-src</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855005" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>java-1.5.0-ibm</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855002" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>redhat-release-client</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855010" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>java-1.5.0-ibm-jdbc</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855011" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>java-1.5.0-ibm-javacomm</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855008" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>java-1.5.0-ibm-demo</name>
+</rpminfo_object>
+<rpminfo_object id="oval:com.redhat.rhsa:obj:20130855003" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <name>redhat-release-workstation</name>
+</rpminfo_object>
+
+  </objects>
+  <states>
+    <!-- ~~~~~~~~~~~~~~~~~~~~   rpminfo states   ~~~~~~~~~~~~~~~~~~~~~ -->
+    <rpminfo_state id="oval:com.redhat.rhsa:ste:20130855001" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <signature_keyid operation="equals">5326810137017186</signature_keyid>
+</rpminfo_state>
+<rpminfo_state id="oval:com.redhat.rhsa:ste:20130855002" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <signature_keyid operation="equals">199e2f91fd431d51</signature_keyid>
+</rpminfo_state>
+<rpminfo_state id="oval:com.redhat.rhsa:ste:20130855003" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <version operation="pattern match">^6[^[:digit:]]</version>
+</rpminfo_state>
+<rpminfo_state id="oval:com.redhat.rhsa:ste:20130855004" version="501" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#linux">
+  <evr datatype="evr_string" operation="less than">1:1.5.0.16.2-1jpp.1.el6_4</evr>
+</rpminfo_state>
+
+  </states>
+</oval_definitions>
